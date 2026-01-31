@@ -9,7 +9,6 @@
     position: relative;
 }
 
-/* subtle overlay to guarantee contrast */
 .main-image-section::before {
     content: "";
     position: absolute;
