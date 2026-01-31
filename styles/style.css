@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
-
+@import url('./header.css');
 :root{
 
     --header-font: "Abhaya Libre", serif;
     --text-font: "ABeeZee", sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--text-font);
+    box-sizing: border-box;
 }
