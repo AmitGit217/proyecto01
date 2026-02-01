@@ -92,3 +92,51 @@
     border: 1px solid black;
     padding: 20px 30px 20px 30px;
 }
+
+
+@media screen and (min-width: 768px) {
+    .contact-us-section__text-container {
+        max-width: 750px;
+    }
+
+
+    .contact-us-section__text-container {
+        background: none;
+        position: absolute;
+        margin-top: -25%;
+        color: white;
+        text-align: left;
+        align-items: flex-start;
+        width: 530px;
+
+    }
+
+    .contact-us-section__wheel-programme {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+
+    
+
+    .contact-us-section__contact-us {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 40px 0 40px;
+    }
+
+    .contact-us-section__img{
+        width: 100%;
+        height: 800px;
+    }
+
+    .contact-us-section__contact-us >.car-list__more-info-button    {
+        height: 50px;
+        align-content: center;
+        padding: auto;
+        text-align: center;
+        padding: 0 40px 0 40px;
+    }
+}
