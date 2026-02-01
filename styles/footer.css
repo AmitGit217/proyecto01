@@ -125,6 +125,10 @@
     margin-top: 20px;
 }
 
+.footer {
+    position: relative;
+    padding-bottom: 15px;
+}
 
 .footer__menu {
     display: flex;
@@ -143,3 +147,18 @@
     cursor: pointer;
     opacity: 0.6;
 }
+
+.footer__backup {
+    font-size: 12px;
+    border-radius: 50%;
+    border: none;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: 80px;
+    width: 80px;
+}
+
