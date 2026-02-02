@@ -111,7 +111,7 @@
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        border: 3px solid #0048ff;;
+        border: 1px solid #000000;
         cursor: pointer;
         accent-color: #0048ff;
     }
@@ -120,7 +120,7 @@
         width: 20px;
         height: 20px;
         border-radius: 50%;
-        border: 1px solid #FF0000;
+        border: 1px solid #000000;
         cursor: pointer;
         accent-color: #FF0000;
     }
