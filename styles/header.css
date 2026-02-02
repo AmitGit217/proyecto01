@@ -19,6 +19,8 @@
 .header__nav-list {
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
 }
@@ -34,7 +36,8 @@
 }
 
 
-.header__logo >p {
+
+.header__logo > p {
     display: none;
 }
 
