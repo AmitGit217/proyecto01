@@ -98,30 +98,36 @@
     }
 
 
-    .car-list__color-choice >[id="black"] {
+    .car-list__color-choice--black {
+        display: block;
         width: 20px;
         height: 20px;
         border-radius: 50%;
         border: 1px solid #000000;
         cursor: pointer;
-        accent-color : #000000;
+        background-color: #000000;
+        accent-color: #000000;
     }
 
-    .car-list__color-choice > [id="blue"] {
+    .car-list__color-choice--white {
+        display: block;
         width: 20px;
         height: 20px;
         border-radius: 50%;
         border: 1px solid #000000;
         cursor: pointer;
-        accent-color: #0048ff;
+        background-color: #FFFFFF;
+        accent-color: #FFFFFF;
     }
 
-    .car-list__color-choice  > [id="red"] {
+    .car-list__color-choice--red {
+        display: block;
         width: 20px;
         height: 20px;
         border-radius: 50%;
         border: 1px solid #000000;
         cursor: pointer;
+        background-color: #FF0000;
         accent-color: #FF0000;
     }
     
