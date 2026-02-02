@@ -20,7 +20,7 @@
 }
 
 .contact-us-section__img{
-    max-width: 100%;
+    min-width: 100%;
     height: 190px;
 }
 
