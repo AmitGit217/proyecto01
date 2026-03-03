@@ -65,14 +65,15 @@
 
 
 .contact-us-section__wheel-programme-img{
-    max-width: 339px;
+    max-width: 95%;
     border-radius: 8px;
     height: auto;
 }
 
 
 .contact-us-section__contact-us {
-    max-width: 100vw;
+    max-width: 100%
+;
     height: 250px;
     margin-top: 10px;
     display: flex;
