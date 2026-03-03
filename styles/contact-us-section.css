@@ -72,7 +72,7 @@
 
 
 .contact-us-section__contact-us {
-    width: 100%;
+    max-width: 100vw;
     height: 250px;
     margin-top: 10px;
     display: flex;
