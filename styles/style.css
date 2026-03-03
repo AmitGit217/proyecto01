@@ -9,14 +9,85 @@
 @import url('./footer.css');
 
 
-:root{
-    max-width: 100%
-;
+:root {
+    /* ─── Typography ─────────────────────────────────────── */
     --header-font: "Abhaya Libre", serif;
-    --text-font: "ABeeZee", sans-serif;
-    --btn-bg: #ffffff;
+    --text-font:   "ABeeZee", sans-serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 25px;
+
+    /* ─── Colors ─────────────────────────────────────────── */
+    --color-black:          #000000;
+    --color-white:          #FFFFFF;
+    --color-red:            #FF0000;
+
+    --color-surface:        #D9D9D9;
+    --color-surface-light:  #f5f5f5;
+    --color-surface-alt:    #EEEEEE;
+    --color-surface-header: #EEEEEE;
+    --color-dark:           #4d4d4d;
+    --color-overlay:        rgba(162, 162, 162, 0.51);
+    --color-border-light:   #ddd;
+    --color-shadow:         rgba(0, 0, 0, 0.1);
+    --color-shadow-text:    rgba(0, 0, 0, 0.6);
+
+    /* ─── Buttons ────────────────────────────────────────── */
+    --btn-bg:   #ffffff;
     --btn-text: #000000;
+
+    /* ─── Spacing ────────────────────────────────────────── */
+    --space-xxs: 5px;
+    --space-xs:  5px;
+    --space-sm:  8px;
+    --space-md:  20px;
+    --space-lg:  30px;
+    --space-xl:  80px;
+
+    /* ─── Border Radius ──────────────────────────────────── */
+    --radius-none:    0;
+    --radius-sm:      2.5px;
+    --radius-md:      8px;
+    --radius-pill:    45px;
+    --radius-pill-lg: 80px;
+    --radius-pill-xl: 90px;
+    --radius-circle:  50%;
+
+    /* ─── Shadows ────────────────────────────────────────── */
+    --shadow-sm:   0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md:   0 2px 6px rgba(0, 0, 0, 0.1);
+    --shadow-text: 0 2px 6px rgba(0, 0, 0, 0.6);
+
+    /* ─── Layout ─────────────────────────────────────────── */
+    --container-max-width: 1200px;
+    --logo-size:           30px;
+
+    /* ─── Component Sizes ────────────────────────────────── */
+    --input-height:     51px;
+    --button-height:    53px;
+    --button-height-md: 45px;
+    --color-dot-size:   20px;
+
+    /* ─── Image & Section Heights ────────────────────────── */
+    --image-height:      190px;
+    --image-height-sm:   190px;
+    --image-height-lg:   800px;
+    --image-height-info: 329px;
+    --section-height-md: 250px;
+
+    /* ─── Carousel ───────────────────────────────────────── */
+    --carousel-height: 334px;
+    --card-width:      310px;
+    --card-padding:    11px;
+
+    /* ─── Overlay ────────────────────────────────────────── */
+    --overlay-min-height: 70%;
+    --overlay-max-height: 90%;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -24,9 +95,8 @@
 }
 
 
-body{
-    max-width: 100%
-;
+body {
+    max-width: 100%;
     margin: 0;
     padding: 0;
     font-family: var(--text-font);
@@ -36,11 +106,8 @@ body{
     align-items: center;
 }
 
-ul{
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-
-
- 

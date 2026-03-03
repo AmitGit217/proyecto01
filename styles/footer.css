@@ -1,22 +1,22 @@
 .footer {
-    background-color: #000000;
-    color: #fff;
+    background-color: var(--color-black);
+    color: var(--color-white);
     text-align: center;
-    padding: 20px 0;
+    padding: var(--space-md) 0;
     font-family: var(--text-font);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    position: relative;
+    padding-bottom: 15px;
 }
-
-
 
 .footer__form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--space-sm);
     width: 100%;
     max-width: 400px;
 }
@@ -25,84 +25,75 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 var(--space-md);
 }
 
 .footer__input {
-    padding: 0 20px;
+    padding: 0 var(--space-md);
     width: 202px;
-    border-radius: 80px;
-    font-size: 16px;
+    height: var(--input-height);
+    border-radius: var(--radius-pill-lg);
+    font-size: var(--font-size-md);
     background: none;
-    border: 1px solid #fff;
-    color: #fff;
-    height: 51px;
-   
-    
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+}
+
+.footer__input::placeholder {
+    color: var(--color-white);
+    font-size: var(--font-size-xs);
 }
 
 .footer__subscribe-button {
-    padding: 10px;
-    border: none;
-    border-radius: 90px ;
-    font-size: 16px;
-    height: 53px;
+    padding: var(--space-sm);
+    border-radius: var(--radius-pill-xl);
+    font-size: var(--font-size-md);
+    height: var(--button-height);
     width: 136px;
-    background-color: #fff;
-    border: white 1px solid;
-    color: #000;
-    cursor: pointer;    
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
+    color: var(--color-black);
+    cursor: pointer;
     margin-left: -50px;
-
 }
-.footer__input::placeholder {
-    color: #fff;
-    font-size: 12px;
-}
-
 
 .footer_social {
     margin-top: 15px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: var(--space-md);
 }
 
 .footer__checkbox-label {
-    font-size: 12px;
-    gap: 5px;
-    color: #fff;
+    font-size: var(--font-size-xs);
+    gap: var(--space-xs);
+    color: var(--color-white);
 }
 
 .footer__checkbox-spacer {
     display: flex;
     align-items: center;
-    justify-content: center ;
-    gap: 5px;
+    justify-content: center;
+    gap: var(--space-xs);
 }
 
 .footer__privacy-policy-link {
-    color: #fff;
+    color: var(--color-white);
     text-decoration: underline;
     cursor: pointer;
 }
 
 .footer__checkbox {
-    -webkit-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
-    opacity: 1;
-    border-radius: 2.5px;
-    border: 1px solid #fff;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-white);
     background-color: transparent;
-    display: inline-block;
     position: relative;
     cursor: pointer;
 }
-.footer__checkbox:checked {
-    background-color: transparent;
-}
+
 .footer__checkbox:checked::after {
     content: "";
     position: absolute;
@@ -110,65 +101,59 @@
     top: 2px;
     width: 5px;
     height: 10px;
-    border: solid #fff;
+    border: solid var(--color-white);
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
 }
 
-
 .footer__menus {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    gap: 40px;
+    justify-content: center;
+    gap: var(--space-lg);
     flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.footer {
-    position: relative;
-    padding-bottom: 15px;
+    margin-top: var(--space-md);
 }
 
 .footer__menu {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--space-sm);
 }
 
 .footer__menu-title {
     font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-sm);
 }
 
 .footer__menu-item {
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     cursor: pointer;
     opacity: 0.6;
 }
 
 .footer__backup {
-    font-size: 12px;
+    font-size: var(--font-size-xs);
     border-radius: 50%;
-    border: none;
-    padding: 5px 10px;
-    background-color: #ffffff;
-    margin-top: 20px;
+    padding: var(--space-xs) var(--space-sm);
+    background-color: var(--color-white);
+    margin-top: var(--space-md);
     position: absolute;
     bottom: 10px;
     right: 10px;
-    height: 80px;
-    width: 80px;
+    height: var(--space-xl);
+    width: var(--space-xl);
 }
+
 
 
 @media screen and (min-width: 768px) {
     .footer__menus {
         flex-direction: row;
-        gap: 80px;
+        gap: var(--space-xl);
     }
-   
+
     .footer__input-button-container {
         margin: 0;
     }
