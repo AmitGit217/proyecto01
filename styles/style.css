@@ -82,6 +82,8 @@
     --carousel-height: 334px;
     --card-width:      310px;
     --card-padding:    11px;
+    --gap-md:         20px;
+    --padding-sm:      10px;
 
     /* ─── Overlay ────────────────────────────────────────── */
     --overlay-min-height: 70%;
