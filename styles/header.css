@@ -34,8 +34,13 @@
     padding: var(--space-xxs);
 }
 
-.header__logo > p {
+.header__logo > a {
     display: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text-primary);
 }
 
 
@@ -46,7 +51,7 @@
         display: none;
     }
 
-    .header__logo > p {
+    .header__logo > a {
         display: block;
     }
 
